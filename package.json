@@ -1,0 +1,14 @@
+{
+  "name": "mcp-detect-xmcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "xmcp build",
+    "start": "xmcp start"
+  },
+  "dependencies": {
+    "xmcp": "^0.6.0",
+    "zod": "^3.23.0"
+  }
+}
