@@ -4,11 +4,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "xmcp build",
-    "start": "xmcp start"
+    "build": "tsc",
+    "start": "node dist/index.js"
   },
   "dependencies": {
     "xmcp": "^0.6.0",
     "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "@types/node": "^22.0.0"
   }
 }
