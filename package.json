@@ -1,21 +1,30 @@
 {
   "name": "mcp-detect-xmcp",
   "version": "0.1.0",
-  "private": true,
-  "type": "module",
+  "description": "Smoke-test fixture for xmcp framework detection (MCP App).",
+  "keywords": [
+    "mcp",
+    "tailwind"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/index.js"
+    "build": "xmcp build",
+    "dev": "xmcp dev",
+    "start": "node dist/http.js"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.27.0",
-    "express": "^5.0.0",
-    "xmcp": "^0.6.0",
-    "zod": "^3.23.0"
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "xmcp": "latest",
+    "zod": "^4.0.0"
   },
   "devDependencies": {
-    "typescript": "^5.4.0",
-    "@types/node": "^22.0.0",
-    "@types/express": "^5.0.0"
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18"
   }
 }
