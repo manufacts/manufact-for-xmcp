@@ -8,7 +8,7 @@
 
 Built with [`xmcp`](https://github.com/basementstudio/xmcp) — file-based tools where each `.tsx` in `src/tools/` is both a tool definition and a React handler.
 
-**Live demo:** [`keen-steel-ix5iy.run.mcp-use.com/mcp`](https://keen-steel-ix5iy.run.mcp-use.com/mcp)
+**Live demo:** [`wild-forge-xqrd6.run.mcp-use.com/mcp`](https://wild-forge-xqrd6.run.mcp-use.com/mcp)
 
 </div>
 
